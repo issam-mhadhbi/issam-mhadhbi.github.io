@@ -1,13 +1,9 @@
 ---
-title: My First Post
+title: Setup Pytorch with xpu backend 
 ---
 
-# My First Post
+# Bash commands : 
 
-This is my first blog post.
+pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/xpu
+pip install intel-extension-for-pytorch
 
-## Why this blog?
-To share knowledge about:
-- Python
-- DevOps
-- Computer Vision
